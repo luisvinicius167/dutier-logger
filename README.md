@@ -3,7 +3,7 @@
 Logger for Dutier, inspired by Redux Logger.<br/>
 
 [![npm package](https://img.shields.io/badge/npm-0.0.1-blue.svg)](https://www.npmjs.com/package/dutier-logger)
-[![CDN](https://img.shields.io/badge/cdn-1.0.0-ff69b4.svg)](https://unpkg.com/dutier-logger@0.0.1)
+[![CDN](https://img.shields.io/badge/cdn-0.0.1-ff69b4.svg)](https://unpkg.com/dutier-logger@0.0.1)
 
 ![dutier-logger](http://i.imgur.com/CgAuHlE.png)
 
