@@ -1,0 +1,46 @@
+{
+  "name": "dutier-logger",
+  "version": "0.0.1",
+  "description": "Logger for Dutier.",
+  "main": "dist/dutier-logger.min.js",
+  "module": "src/index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "npm run rollup & npm run rollup:production",
+    "build:watch": "npm run rollup -- --watch",
+    "clean": "del-cli \"dist/**/*\"",
+    "rollup": "rollup --config",
+    "rollup:production": "cross-env NODE_ENV=production npm run rollup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvinicius167/dutier-logger.git"
+  },
+  "keywords": [
+    "logger",
+    "dutier",
+    "flux",
+    "easy state",
+    "state container",
+    "flux pattern"
+  ],
+  "author": "Luis Vinícius <dev_luis@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisvinicius167/dutier-logger/issues"
+  },
+  "homepage": "https://github.com/luisvinicius167/dutier-logger#readme",
+  "devDependencies": {
+  "babel-preset-env": "~1.4.0",
+    "cross-env": "~5.0.0",
+    "del-cli": "~1.0.0",
+    "rollup": "~0.41.6",
+    "rollup-plugin-babel": "~2.7.1",
+    "rollup-plugin-uglify": "~2.0.0",
+    "rollup-watch": "~3.2.2"
+  }
+}
