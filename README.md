@@ -1,4 +1,4 @@
-<img width="200" src="https://raw.githubusercontent.com/luisvinicius167/dutier/master/img/logo.png"/> 
+[<img width="200" src="https://raw.githubusercontent.com/luisvinicius167/dutier/master/img/logo.png"/>](https://github.com/luisvinicius167/dutier)
 
 Logger for Dutier, inspired by Redux Logger.<br/>
 
@@ -7,7 +7,7 @@ Logger for Dutier, inspired by Redux Logger.<br/>
 
 ![dutier-logger](http://i.imgur.com/CgAuHlE.png)
 
-Check out [Dutier](https://github.com/luisvinicius167/dutier).
+Check out [Dutier](https://github.com/luisvinicius167/dutier), the async and powerfull state management solution for Javascript applications. 
 
 ### Install
 * NPM: ``` npm install dutier-logger ```
